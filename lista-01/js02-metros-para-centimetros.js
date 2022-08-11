@@ -1,11 +1,11 @@
 /**
  * Faça um programa que converta metros para centímetros
- * 
+ *
  * ENTRADA         SAÍDA
  *    1              100
  *  100            10000
  *   .5               50
- * 
+ *
  * Tarefa:
  * - Altere a variável cm para calcular o valor com base na entrada (metros)
  *   $ node lista-01/js02-metros-para-centimetros.js
@@ -15,11 +15,10 @@
  */
 
 // Entrada
-var metros = 1
+var metros = 1;
 
 // Altere a expressão abaixo para calcular cm com base na var metros
-var cm = 100
+let metros = 2;
+let centimetros = metros * 100;
 
-var resultado = '👉 ' + metros + ' metro(s) == ' + cm + ' centímetro(s)'
-
-console.log(resultado)
+console.log(`${metros} m = ${centimetros} cm `);

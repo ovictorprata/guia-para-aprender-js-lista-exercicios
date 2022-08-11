@@ -1,16 +1,20 @@
 /**
- * Faça um Programa que inverta um texto. 
- * 
+ * Faça um Programa que inverta um texto.
+ *
  * ENTRADA          SAÍDA
  * abacate          etacaba
  * 12345            54321
- * 
+ *
  */
 
 // Entrada
-var entrada = 'abacate'
+let texto = "abacate";
+let invertido = "";
+i = texto.length;
 
-// gere a variável invertido de forma a transforma a entrada na saída esperada
-var invertido = '?'
+while (i > 0) {
+  invertido += texto[i - 1];
+  i--;
+}
 
-console.log(invertido)
+console.log(invertido);

@@ -14,9 +14,19 @@
  */
 
 // Entrada
-var entrada = "J";
 
-// implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
-var resultado = false;
+let texto = " ";
 
-console.log(resultado);
+texto = texto.toLowerCase();
+
+if (
+  texto == "yes" ||
+  texto == "y" ||
+  texto == "s" ||
+  texto == "sim" ||
+  texto == 1
+) {
+  console.log("true");
+} else {
+  console.log("false");
+}
