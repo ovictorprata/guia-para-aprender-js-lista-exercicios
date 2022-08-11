@@ -1,6 +1,6 @@
 /**
  * Faça um programa que retorne true ou false conforme a entrada Y,y,yes,S,sim
- * 
+ *
  * ENTRADA          SAÍDA
  * Y                         true
  * Yes, YES, yes             true
@@ -14,9 +14,18 @@
  */
 
 // Entrada
-var entrada = 'J'
+let texto = " ";
 
-// implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
-var resultado = false
+texto = texto.toLowerCase();
 
-console.log(resultado)
+if (
+  texto == "yes" ||
+  texto == "y" ||
+  texto == "s" ||
+  texto == "sim" ||
+  texto == 1
+) {
+  console.log("true");
+} else {
+  console.log("false");
+}
