@@ -18,7 +18,7 @@
  * o código ASCII de forma a incrementar 1, ou seja, mudar de a para b, b para c
  * e assim por diante!
  * quando for z ou Z mudar para @ e $ respectivamente ao invés de {
- * 
+ *
  * Tarefa
  * - entenda como converter a para 97
  * - percorra o abacate para gerar os ordinais correspondente: 97,  98, 97 ...
@@ -88,12 +88,8 @@ const criptografia = [
   "a",
 ];
 
-<<<<<<< HEAD
-var textoCripto = 'bcbdbuf'
-=======
 let texto = "zebra";
 let texto_criptografado = "";
->>>>>>> Lista 1 feita
 
 let posicao = 0; //retorna a posição da letra original
 
