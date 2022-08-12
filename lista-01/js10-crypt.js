@@ -19,12 +19,15 @@
  * e assim por diante!
  * quando for z ou Z mudar para @ e $ respectivamente ao invés de {
  *
+<<<<<<< HEAD
  * Tarefa
  * - entenda como converter a para 97
  * - percorra o abacate para gerar os ordinais correspondente: 97,  98, 97 ...
  * - percorra a lista dos inteiros corresponde somando 1       98, 100, 98 ...
  * - percorra novamente, agora voltando para caractere          b,   c, b  ...
  *
+=======
+>>>>>>> 2a4b4784b78cad4deb04f78c2aae58b8bfbc333d
  * IMPORTANTE:
  * - Não usar bibliotecas, basta manipular a string de entrada de forma a embaralhá-la
  */
