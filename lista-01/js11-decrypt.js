@@ -69,7 +69,7 @@ const criptografia = [
   "z",
   "a",
 ];
-a;
+
 let texto = "zebra";
 let texto_criptografado = "";
 
