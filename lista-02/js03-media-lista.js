@@ -7,7 +7,8 @@
  */
 
 // Entrada
-var entrada = [1, 3, 5, 7, 8, 10];
+var entrada_1 = [1, 3, 5, 7, 8, 10];
+var entrada_2 = [1, 1, 40];
 var soma = 0;
 let media = 0;
 
@@ -21,5 +22,8 @@ function calcularMediaElementos(lista) {
   return media.toFixed(1);
 }
 
-media = calcularMediaElementos(entrada);
+media = calcularMediaElementos(entrada_1);
+console.log(` A média das entradas é ${media}.`);
+
+media = calcularMediaElementos(entrada_2);
 console.log(` A média das entradas é ${media}.`);
