@@ -1,15 +1,22 @@
 /**
- * Faça um programa que gere apenas os números ímpares entre 1 e 150. 
- * 
+ * Faça um programa que gere apenas os números ímpares entre 1 e 150.
+ *
  * ENTRADA              SAÍDA
  * [1,150]              [1,3,5,7,9,11...147,149]
- * 
+ *
  */
 
 // Entrada
-var range = [1, 150]
+var range = [];
+var impares = [];
 
-var impares = []
+for (let i = 1; i <= 150; i++) {
+  range.push(i);
+}
 
-
-console.log(impares)
+range.forEach(function (numero) {
+  if (numero % 2 != 0) {
+    impares.push(numero);
+  }
+});
+console.log(impares);
